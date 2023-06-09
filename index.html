@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion Sort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h2>Insertion Sort</h2>
+    </div>
+    <div class="input-div">
+        <input type="text" id="input-array" placeholder="Enter Array of integers separated with commas...">
+        <button onclick="insertionSort()">Sort</button>
+        <br><br>
+        <p><b><i>NOTE:</i></b>&emsp;This insertion sort could be displayed for an array which consists <u>less than or equal to 10 elements</u>
+            <br>
+            Also no duplicates are allowed!!! and to get better visual give elements from 0 to 100.
+        </p>
+    </div>
+    <div class="sorting">
+        <div class="sorting-animation">
+            <div class="number-box">
+                <div class="inner-box">
+                    <p class="number"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reference">
+        <h3>Reference</h3>
+        <div class="color-reference">
+            <div class="orange">
+                <div class="color-box-1"></div>
+                <span>Element which in sorted side of Array</span>
+            </div>
+            <div class="green">
+                <div class="color-box-2"></div>
+                <span>Element which is compared to Key</span>
+            </div>
+            <div class="lightcoral">
+                <div class="color-box-3"></div>
+                <span>Element chosen as Key</span>
+            </div>
+            <div class="aqua">
+                <div class="color-box-4"></div>
+                <span>Element which in unsorted side of Array</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

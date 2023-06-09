@@ -1,0 +1,131 @@
+*{
+    margin:0;
+}
+.heading{
+    width:100%;
+    height:80px;
+    text-align: center;
+    top:0;
+    left:0;
+    right:0;
+    box-shadow: 5px 3px 3px gray;
+}
+.heading h2{
+    font-size: 60px;
+    margin:25px 0;
+    background:-webkit-linear-gradient(rgb(83, 80, 80),rgb(223, 223, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input-div{
+    text-align: center;
+    width:100%;
+    height:100px;
+    margin-top:30px;
+}
+.input-div input{
+    width:350px;
+    border:3px solid gray;
+    padding:5px;
+    height:20px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-size: 15px;
+}
+.input-div button{
+    width:100px;
+    height:35px;
+    padding: 5px;
+    font-size: 15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left:-7px;
+    background-color: lightyellow;
+    border:2px solid gray;
+}
+.sorting{
+    width:100%;
+    height:400px;
+    position:relative;
+    background-color: white;
+    margin:0 auto;
+}
+.sorting-animation{
+    margin: 0 auto;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+}
+.number-box{
+    width:150px;
+    height:150px;
+    position:relative;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    background-color: transparent;
+}
+.inner-box{
+    width:50%;
+    height:50%;
+    transform-origin: inherit;
+    background-color: white;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:0;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+}
+.inner-box p{
+    text-align: center;
+    width:20px;
+    height:20px;
+    margin:auto;
+    font-size: 20px;
+}
+.reference{
+    height:100px;
+    width: 100%;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    box-shadow: 5px 5px 5px gray;
+}
+.color-reference{
+    display: flex;
+    justify-content: space-evenly;
+}
+.reference h3{
+    font-size: 30px;
+    text-align: center;
+}
+.orange,.green,.lightcoral,.aqua{
+    display: flex;
+    margin:20px;
+}
+.color-box-1,.color-box-2,.color-box-3,.color-box-4{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-right:20px;
+}
+.color-box-1{
+    background-color: orange;
+}
+.color-box-2{
+    background-color: lightgreen;
+}
+.color-box-3{
+    background-color: lightcoral;
+}
+.color-box-4{
+    background-color: aqua;
+}
+.color-reference span{
+    margin-top:5px;
+    font-size: 15px;
+}
