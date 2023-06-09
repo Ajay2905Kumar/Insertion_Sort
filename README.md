@@ -1,4 +1,4 @@
-# insertion_Sort
+# Insertion_Sort
 It sorts an given array of elements using Insertion Sort using Front-end only.
 
 ### About the Webpage
