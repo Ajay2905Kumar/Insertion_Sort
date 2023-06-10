@@ -2,7 +2,7 @@
 It sorts an given array of elements using Insertion Sort using Front-end only.
 
 ### About the Webpage
-* It reaaranges the given sequence of elements in the sorted order using Insertion Sort.
+* It rearranges the given sequence of elements in the sorted order using Insertion Sort.
 * It is done only for laptop view. Responsiveness of this webpage is under process.
 * Animation of Insertion Sort with user input.
 
